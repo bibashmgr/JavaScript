@@ -1,0 +1,47 @@
+<!--javascript can change the style of HTML element-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of Javascript</title>
+</head>
+<body id="styleDemo" style="background-color:whitesmoke; color: black;">
+
+    <div>
+
+        <h2>A Simple Demo Of Dark Mode.</h2>
+
+        <button class="button01" onclick="darkMode()" style="background-color: whitesmoke;">
+            Dark Mode
+        </button>
+
+        <button class="button02" onclick="defaultMode()" style="background-color: whitesmoke;">
+            Default Mode
+        </button> 
+
+    </div>
+
+    <script>
+        
+        function darkMode(){
+
+            document.getElementById("styleDemo").style.backgroundColor="black" ;
+
+            document.getElementById("styleDemo").style.color="whitesmoke";
+
+        }
+
+        function defaultMode(){
+
+            document.getElementById("styleDemo").style.backgroundColor="whitesmoke" ;
+
+            document.getElementById("styleDemo").style.color="black";
+
+        }
+
+    </script>
+    
+</body>
+</html>
