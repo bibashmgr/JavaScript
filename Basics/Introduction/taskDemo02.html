@@ -1,0 +1,23 @@
+<!--javascript can change the value of attributes-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of JavaScript</title>
+</head>
+<body>
+    
+    <div>
+
+        <button onclick="document.getElementById('bulb').src='./bulbOn.gif'">Turn on the light</button>
+
+        <img id="bulb" src="./bulbOff.gif" style="width:100px">
+    
+        <button onclick="document.getElementById('bulb').src='./bulbOff.gif'">Turn off the light</button>
+    
+    </div>
+    
+</body>
+</html>
