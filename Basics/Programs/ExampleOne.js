@@ -1,5 +1,2 @@
-function functionDemo(){
 
-    document.getElementById("demo").innerHTML="Sorry,that was a lie."
-
-}
+document.getElementById("demo").innerHTML="Sorry,that was a lie.";
