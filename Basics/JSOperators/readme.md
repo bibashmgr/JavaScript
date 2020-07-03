@@ -13,3 +13,5 @@ An operator is a symbol that usually represents an action or process. They are u
 - String Operators: *add (concatenate) strings*
 
 - Type Operators: *return data types*
+
+- Bitwise Operators: *work on 32 bits numbers*
