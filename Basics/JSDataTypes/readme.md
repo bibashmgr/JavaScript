@@ -60,7 +60,39 @@ var firstName;    // Value is undefined, type is undefined
 
 > ## JavaScript Null:
 In JavaScript null has no value and its data type is an object.
+
 For example:
 ```js
 var firstName = null;    // Value is null, type is object
 ```
+
+> ## JavaScript Array:
+JavaScript arrays are written with square brackets.Array items are separated by commas.
+
+For example:
+```js
+var animals = ["dog", "cat", "mouse"];
+```
+
+> ## JavaScript Objects:
+JavaScript objects are written with curly braces {}.Object properties are written as name:value pairs, separated by commas.
+
+For exapmle:
+```js
+var legends = {
+    charName : "Octane",
+    passive : "heals over time",
+    active : "sprints faster",
+    ultimate : "can use jumpad"
+}
+```
+ > ## JavaScript Function:
+ JavaScript functions are of object data type.A JavaScript function is a block of code designed to perform a particular task.
+
+ For example:
+ ```js
+ // synatx for declaring function in JavaScript //
+ function functionName(parameter01,parameter02,...){
+     // body of function
+ }
+ ```
