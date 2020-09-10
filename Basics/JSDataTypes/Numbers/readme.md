@@ -25,7 +25,25 @@ var b = "The result is: " + (x+y); // returns 30
 var x = "100";
 var y = "10";
 var z = x / y;       // z will be 10
+```
+> ### NaN (Not a Number)
+NaN is a JavaScript reserved word indicating that a number is not a legal number.
 
+```js
+// NaN is a number //
 
+typeof NaN; // returns "number"
 ```
 
+The isNaN() is used to find out if a value is a number.
+```js
+var x = 100 / "Apple";
+isNaN(x); // returns true
+```
+> ### Infinity
+Infinity (or -Infinity) is the value JavaScript will return if you calculate a number outside the largest possible number.
+```js
+// Infinity is a number //
+
+typeOf(Infinity); // returns number
+```
