@@ -79,30 +79,60 @@ var str2 = str.replace("coding", "JavaScript");
 
 - The `toUpperCase()` is used to convert a string into upper case.
 ```js
+var text1 = "Hello World!";       
+var text2 = text1.toUpperCase();  // the result is HELLO WORLD!
 ```
 
 - The `toLowerCase()` is used to convert a string into lower case.
 ```js
+var text1 = "Hello World!";       
+var text2 = text1.toUpperCase();  // the result is hello world!
 ```
 
 - The `concat()` joins two or more strings.
 ```js
+var text1 = "Hello";
+var text2 = "World";
+var text3 = text1.concat(" ", text2); // the result is Hello World
+
+// concat() can be used instead of plus operator(+) //
+var text = "Hello" + " " + "World!";
+// the above code can be written as //
+var text = "Hello".concat(" ", "World!");
 ```
 
 - The `trim()` method removes whitespace from both sides of a string.
 ```js
+var str = "       Hello World!        ";
+alert(str.trim()); // the result is Hello World!
+
+// the above code can be written as //
+// using replace() method instead of trim() //
+alert(str.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '')); // the result is Hello World!
+
 ```
 
 - The `charAt()` method returns the character at a specified index (position) in a string.
 ```js
+var str = "HELLO WORLD";
+str.charAt(0);  // returns H
 ```
 
 - The `charCodeAt()` method returns the unicode of the character at a specified index in a string.
 ```js
+var str = "HELLO WORLD";
+
+str.charCodeAt(0);  // returns 72
 ```
 
 - The `split()` method is used to  converte a string to an array.
 ```js
+var txt1 = "a, b, c, d, e";
+txt1.split(","); // split on commas
+txt1.split(" "); // split on space
+
+var txt2 = "HELLO"
+txt2.split(""); // split every character
 ```
 
 
