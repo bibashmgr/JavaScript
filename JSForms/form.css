@@ -1,0 +1,14 @@
+.form-control i{
+    position: relative;
+    visibility: hidden;
+}
+
+.form.control.sucess i.fa-check-circle{
+    visibility: visible;
+    color: #09e941;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: #e90e0e;
+}
